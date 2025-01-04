@@ -1,3 +1,14 @@
+<script>
+	import { goto } from "$app/navigation";
+
+
+	import Button from "$components/Button.svelte";
+
+    function onclick() {
+        goto("/#contact-form");
+    }
+
+</script>
 <section class="hero-section default-margin">
     <h3>Hello! I'm Vinay</h3>
     <div class="underscore mb-m"></div>
@@ -5,7 +16,7 @@
         Deep Learning and 
     </h2>
     <h2 class="dark-grey">Natural Language Processing</h2>
-    <button>Let's talk!</button>
+    <Button {onclick}>Let's Talk</Button>
 </section>
 
 <style>
