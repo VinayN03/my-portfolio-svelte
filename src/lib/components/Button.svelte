@@ -21,7 +21,7 @@
         font-weight: 500;
         background-color: black;
         color: white;
-        font-size: 24px;
+        font-size: 18px;
         padding: 14px 40px;
         border-radius: 10px;
         }
