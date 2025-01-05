@@ -10,8 +10,8 @@
 </script>
 
 <div class="default-margin">
-    <h6>
+    <h3>
         {@render children()}
-    </h6>
+    </h3>
     <div class="underscore"></div>
 </div>

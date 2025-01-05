@@ -1,6 +1,6 @@
 <script lang="ts">
 
-	import SectionHeadline from "$components/SectionHeadline.svelte";
+	import { SectionHeadline, ExperienceTable } from "$components";
     import image from "$assets/about-me.jpg";
 
 </script>
@@ -12,8 +12,28 @@
         <img class="image" src={image} alt="" />
         <div class="text">
             <p>
-                I am a Python developer with specialized expertise in Machine Learning (ML), Deep Learning (DL), Generative AI, and Natural Language Processing (NLP). With a strong foundation in designing, implementing, and optimizing complex algorithms, I focus on leveraging cutting-edge AI technologies to build intelligent, data-driven solutions. My experience includes developing custom ML models, training deep neural networks, implementing NLP pipelines, and creating innovative generative AI applications. I am passionate about transforming data into actionable insights and delivering scalable AI solutions.
+                I am a results-driven Python developer with over 7.5 years of experience specializing in Machine Learning (ML), Deep Learning (DL), Natural Language Processing (NLP), and Generative AI. Throughout my career, I have developed a strong foundation in designing and implementing innovative AI solutions, focusing on transforming data into actionable insights. My experience spans across various domains, including document data extraction, optical character recognition (OCR), Named Entity Recognition (NER), and cloud-based services using AWS. I have worked with open-source LLMs and advanced deep learning algorithms to automate complex tasks and improve operational efficiency. Additionally, I am well-versed in developing REST APIs, working with databases like MySQL and Oracle, and optimizing cloud infrastructure. I thrive in dynamic environments and excel in leading teams to deliver scalable and high-performance solutions. Passionate about continuous learning, I am always eager to explore emerging technologies and apply them to real-world challenges.
             </p>
         </div>
     </div>
+    <ExperienceTable />
 </section>
+
+<style>
+    .content-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: stretch;
+    }
+
+    .image {
+        width: 42%;
+        border-radius: 20px;
+        object-fit: cover;
+    }
+
+    .text {
+        width: 55%;
+        text-align: left;
+    }
+</style>
