@@ -15,7 +15,7 @@
     <div class="summary mb-m">
         <!-- I am a Python developer with specialized expertise in Machine Learning (ML), Deep Learning (DL), Generative AI, and Natural Language Processing (NLP). -->
     <h4 class="ml-xs">I'm a</h4><h2> Python Developer </h2><h4>with specialized expertise in</h4><h2 class="dark-grey">Machine Learning</h2><h4 class="ml-xs">,</h4>
-        <h2>Deep Learning</h2><h4 class="ml-xs">,</h4><h2 class="dark-grey">Generative AI</h2><h4>and</h4>
+    <h2>Deep Learning</h2><h4 class="ml-xs">,</h4><h2 class="dark-grey">Generative AI</h2><h4>and</h4>
     <h2>Natural Language Processing</h2>
 </div>
 <div class='contact-me-button'>
@@ -25,14 +25,19 @@
 
 <style>
     .hero-section {
-        width: 100%;
+        width: 90vw;
+        max-width: 950px;
         padding-top: 40px;
-        margin-left: 20px;
-        margin-right: 20px;
+        /* padding-left: 5vw; */
+        /* padding-right: 5vw; */
+        margin-right: 5vw;
+        margin-left: 5vw; 
+        align-items: center;
+
     }
 
     .summary {
-        width: 100%;
+        /* width: 100%; */
         text-align: center;
     }
 

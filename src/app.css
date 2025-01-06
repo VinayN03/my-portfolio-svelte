@@ -37,7 +37,12 @@ button {
 
 body {
   font-family: "Inter Tight", sans-serif;
+  /* width: 100%; */
 }
+
+/* section {
+    width: 100vw;
+} */
 
 h1,
 h2,
@@ -58,7 +63,7 @@ h1 {
 }
 
 h2 {
-  display: inline;
+  display: inline-block;
   font-size: 50px;
   line-height: 1.2;
   font-weight: bold;
@@ -71,7 +76,7 @@ h3 {
 }
 
 h4 {
-  display: inline;
+  display: inline-block;
   font-size: 30px;
   line-height: 2.1;
   font-weight: 200;
@@ -112,8 +117,10 @@ p {
 }
 
 .default-margin {
-  margin-left: 15vw;
-  margin-right: 20vw;
+  /* margin-left: 15vw;
+  margin-right: 20vw; */
+  margin-left: 5vw;
+  margin-right: 5vw;
   max-width: 950px;
 }
 

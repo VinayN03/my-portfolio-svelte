@@ -4,7 +4,7 @@
 </script>
 
 <HeroSection />
-<AboutMeSection />
+<!-- <AboutMeSection />
 <TechStack />
 <Certifications />
-<ContactForm />
+<ContactForm /> -->
