@@ -25,10 +25,10 @@
 
 <style>
     .hero-section {
-        /* width: 100%; */
+        width: 100%;
         padding-top: 40px;
-        padding-left: 20px;
-        padding-right: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
     }
 
     .summary {
