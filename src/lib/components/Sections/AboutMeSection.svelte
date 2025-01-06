@@ -22,18 +22,44 @@
 <style>
     .content-container {
         display: flex;
-        justify-content: space-between;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
         align-items: stretch;
     }
 
     .image {
         width: 42%;
+        /* max-width: 400px; */
+        /* min-width: 350px;
+        min-height: 350px; */
+        /* max-height: 350px; */
         border-radius: 20px;
         object-fit: cover;
     }
 
     .text {
+
         width: 55%;
-        text-align: left;
+
+        /* text-align: left;
+        margin-left: 0;
+        margin-right: 0;
+        padding-right: 0;
+        padding-left: 0; */
     }
+
+/* @media only screen and (max-width: 800px) {
+  .content-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .image {
+    width: 80%;
+  }
+
+  .text p{
+    font-size: 25px;
+  }
+} */
 </style>
