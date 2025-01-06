@@ -18,7 +18,7 @@
         <h2>Deep Learning</h2><h4 class="ml-xs">,</h4><h2 class="dark-grey">Generative AI</h2><h4>and</h4>
     <h2>Natural Language Processing</h2>
 </div>
-    <Button {onclick}>Let's Talk</Button>
+    <Button {onclick}>Contact Me</Button>
 </section>
 
 <style>

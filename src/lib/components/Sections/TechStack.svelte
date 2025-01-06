@@ -10,31 +10,22 @@ const techStack = [
         'pymysql', 'sqlalchemy', 'oracle-client']
     },
     {
-        title: "Machine Learning",
-        stack: ['pandas', 'numpy', 'scikit-learn', 'seaborn', 'matplotlib', 'opencv'
+        title: "ML, DL & NLP",
+        stack: ['pandas', 'numpy', 'scikit-learn', 'seaborn', 'matplotlib', 'opencv',
+        'pytorch', 'tensorflow', 'keras',
+         'nltk', 'spacy'
         ]
     },
     {
-        title: "Deep Learning",
-        stack: ['pytorch', 'tensorflow', 'keras']
-    },
-    {
-        title: "Natural Language Processing",
-        stack: ['nltk', 'spacy']
-    },
-    {
         title: "Generative AI",
-        stack: ['transformers', 'openAI', 'pandasAI', 'Ollama', 'DSPy',
-    'LLAMA2', 'LLAMA3', 'Mistral', 'huggingface']
+        stack: ['transformers', 'openAI', 'pandasAI', 'Ollama', 'DSPy', 'langchain',
+                'huggingface', 'LLAMA2', 'LLAMA3', 'Mistral']
     },
     {
-        title: "AWS",
-        stack: ['EC2', 'Lambda', 'S3', 'Cloudwatch']
+        title: "AWS & Others",
+        stack: ['EC2', 'Lambda', 'S3', 'Cloudwatch', "Svelte", "TagUI", "putty", "winscp", "docker",
+         "postman", "ubuntu", "cuda", "cudnn"]
     },
-    {
-        title: "Others",
-        stack: ["Svelte", "TagUI"]
-    }
 ]
 </script>
 
@@ -70,7 +61,7 @@ const techStack = [
         font-weight: bold;
         margin-bottom: 5px;
         padding-bottom: 0px;
-        margin-top: 20px;
+        margin-top: 10px;
 
     }
 
