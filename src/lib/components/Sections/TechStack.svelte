@@ -1,0 +1,83 @@
+<script lang="ts">
+
+
+const techStack = [
+    {
+        title: "Python",
+        stack: ['virtualenv', 'flask', 'gunicorn', 'waitress', 'flask-restful', 'fastai',
+        'jupyter notebook', 'streamlit', 'pdftotext', 'pyhtml2pdf', 'beautifulsoup', 'hocrtools', 'mmocr',
+        'paddle-ocr', 'pytesseract', 'google-cloud-vision', 'google-vision-ocr', 'amazon textract',
+        'pymysql', 'sqlalchemy', 'oracle-client']
+    },
+    {
+        title: "Machine Learning",
+        stack: ['pandas', 'numpy', 'scikit-learn', 'seaborn', 'matplotlib', 'opencv'
+        ]
+    },
+    {
+        title: "Deep Learning",
+        stack: ['pytorch', 'tensorflow', 'keras']
+    },
+    {
+        title: "Natural Language Processing",
+        stack: ['nltk', 'spacy']
+    },
+    {
+        title: "Generative AI",
+        stack: ['transformers', 'openAI', 'pandasAI', 'Ollama', 'DSPy',
+    'LLAMA2', 'LLAMA3', 'Mistral', 'huggingface']
+    },
+    {
+        title: "AWS",
+        stack: ['EC2', 'Lambda', 'S3', 'Cloudwatch']
+    },
+    {
+        title: "Others",
+        stack: ["Svelte", "TagUI"]
+    }
+]
+</script>
+
+<div class="default-margin mt-m">
+    <h3>Tech Stack</h3>
+    <div class="underscore"></div>
+    <div>
+    {#each techStack as category}
+    <div class="ts-title">{category.title}</div>
+    <div class="tech-stack mt-xs">
+    {#each category.stack as item}
+    <p>{item}</p>
+    {/each}
+</div>
+    {/each}
+    </div>
+
+</div>
+
+<style>
+    .tech-stack {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: left;
+        align-items: normal;
+
+    }
+
+    .ts-title {
+        display: block;
+        text-align: right;
+        font-size: 14px;
+        font-weight: bold;
+        margin-bottom: 5px;
+        padding-bottom: 0px;
+        margin-top: 20px;
+
+    }
+
+    .tech-stack p {
+        margin-right: 5px;
+        border: 1px solid #f0eded;
+        border-radius: 5px;
+        padding: 5px 10px;
+    }
+</style>

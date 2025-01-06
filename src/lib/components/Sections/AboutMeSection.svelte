@@ -8,7 +8,7 @@
 
 <section class="about-me mt-l">
     <SectionHeadline sectionName={"about-me"}>About Me</SectionHeadline>
-    <div class="mt-m content-container default-margin">
+    <div class="content-container default-margin mt-m mb-l">
         <img class="image" src={image} alt="" />
         <div class="text">
             <p>

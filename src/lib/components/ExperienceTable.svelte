@@ -22,8 +22,8 @@
         {
             jobTitle: "GIS Engineer",
             company: "RMSI Pvt Limited - Hyderabad, INDIA",
-            startDate: "2018-10",
-            endDate: "2024-07"
+            startDate: "2016-12",
+            endDate: "2018-06"
         },
     ];
 </script>
@@ -39,7 +39,7 @@
                     <p class="dark-grey">
                         {job.startDate}
                         {#if job.endDate}
-                        {job.endDate}
+                        / {job.endDate}
                         {:else}
                         / present
                         {/if}

@@ -1,8 +1,7 @@
 <script>
-    import { HeroSection } from "$components";
-	import SectionHeadline from "$components/SectionHeadline.svelte";
-	import AboutMeSection from "$components/Sections/AboutMeSection.svelte";
+    import { HeroSection, AboutMeSection, TechStack } from "$components";
 </script>
 
 <HeroSection />
 <AboutMeSection />
+<TechStack />
