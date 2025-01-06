@@ -6,7 +6,7 @@
 <HeroSection />
 
 <!-- Test Hero Section -->
-<!-- <AboutMeSection />
+<AboutMeSection />
 <TechStack />
 <Certifications />
-<ContactForm /> -->
+<ContactForm />
