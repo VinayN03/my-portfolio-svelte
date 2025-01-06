@@ -28,7 +28,7 @@
     ]
 </script>
 
-<section class="default-margin certification mt-m">
+<section class="certification mt-m">
     <h3 class="headline">Certifications</h3>
     <ul class="certification-list">
         {#each certifications as cert}
@@ -54,7 +54,9 @@
         justify-content: space-between;
         border: 1px solid #f0eded;
         border-radius: 10px;
-        padding: 10px 15px;
+        padding: 30px 15px;
+        margin-left: 70px;
+        margin-right: 70px;
     }
 
     .certification-list {
@@ -64,11 +66,11 @@
     .headline {
         text-align: left;
         margin-top: 200px;
-        margin-left: 50px; 
+        margin-left: 80px; 
         margin-right: 0;  
     }
 
-    .cert-item {
+    .cert-item:not(:last-of-type) {
         border-bottom: 1px solid #f0eded;
         padding-bottom: 8px;
     }
@@ -83,6 +85,6 @@
 
     .cert-from {
         display: flex;
-        justify-content: space-between;
+        justify-content: left;
     }
 </style>
