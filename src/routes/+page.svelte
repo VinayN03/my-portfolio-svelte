@@ -4,6 +4,8 @@
 </script>
 
 <HeroSection />
+
+<!-- Test Hero Section -->
 <!-- <AboutMeSection />
 <TechStack />
 <Certifications />
