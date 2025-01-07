@@ -49,7 +49,7 @@ const techStack = [
     .tech-stack {
         display: flex;
         flex-wrap: wrap;
-        justify-content: left;
+        justify-content: space-evenly;
         align-items: normal;
 
     }
@@ -62,7 +62,6 @@ const techStack = [
         margin-bottom: 5px;
         padding-bottom: 0px;
         margin-top: 10px;
-
     }
 
     .tech-stack p {

@@ -6,6 +6,6 @@
 <HeroSection />
 
 <AboutMeSection />
-<!-- <TechStack />
-<Certifications />
+<TechStack />
+<!-- <Certifications />
 <ContactForm /> -->
