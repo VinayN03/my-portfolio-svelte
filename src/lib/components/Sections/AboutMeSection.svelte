@@ -6,9 +6,9 @@
 </script>
 
 
-<section class="about-me mt-l">
+<section class="about-me mt-l mb-l">
     <SectionHeadline sectionName={"about-me"}>About Me</SectionHeadline>
-    <div class="content-container default-margin mt-m mb-l">
+    <div class="content-container default-margin mt-m mb-m">
         <img class="image" src={image} alt="" />
         <div class="text">
             <p>
@@ -16,17 +16,16 @@
             </p>
         </div>
     </div>
-    <!-- <ExperienceTable /> -->
+    <ExperienceTable />
 </section>
 
 <style>
     .about-me {
         width: 100%;
         background-color: #fbfbfb;
-        margin: 60px auto;
+        margin: 0 auto;
+        margin-top: 60px;
         padding-top: 40px;
-        padding-bottom: 40px;
-
     }
 
     .content-container {
@@ -36,13 +35,13 @@
         flex-wrap: wrap;
         justify-content: space-evenly;
         align-items: stretch;
+        padding-bottom: 60px;
+
+
     }
 
     .image {
-        /* width: 42%; */
         max-width: 400px;
-        /* min-width: 350px; */
-        /* max-height: 350px; */
         border-radius: 20px;
         object-fit: cover;
         margin: 20 auto;
@@ -51,15 +50,6 @@
     .text {
         max-width: 550px;
         margin: 20px auto;
-        
-
-        /* width: 55%; */
-
-        /* text-align: left;
-        margin-left: 0;
-        margin-right: 0;
-        padding-right: 0;
-        padding-left: 0; */
     }
 
     .text p {

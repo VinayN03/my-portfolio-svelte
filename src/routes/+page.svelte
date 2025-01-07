@@ -7,5 +7,5 @@
 
 <AboutMeSection />
 <TechStack />
-<!-- <Certifications />
-<ContactForm /> -->
+<Certifications />
+<!-- <ContactForm />  -->

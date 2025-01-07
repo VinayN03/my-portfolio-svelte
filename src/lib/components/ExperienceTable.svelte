@@ -28,7 +28,8 @@
     ];
 </script>
 
-<section class="default-margin work-experience mt-m">
+<section class="work-experience mt-l mb-l">
+    <div class="work-experience-div">
     <ul class="work-experience-list">
         {#each workExperience as job}
         <li class="work-item">
@@ -52,13 +53,24 @@
 
     </ul>
     <h3 class="headline">Work <br /> Experience</h3>
+</div>
 </section>
 
 <style>
     .work-experience {
-        display: flex;
-        justify-content: space-between;
+        background-color: #ffffff;
         width: 100%;
+        margin: 0px auto;
+        padding-top: 30px;
+    }
+
+    .work-experience-div {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        width: 80%;
+        margin: 30px auto;
+        margin-bottom: 60px;
     }
 
     .work-experience-list {
@@ -67,14 +79,14 @@
 
     .headline {
         text-align: right;
-        margin-top: 90px;
-        margin-right: 120px;
-        
+        margin-top: 90px;  
     }
 
     .work-item {
         border-bottom: 1px solid #f0eded;
         padding-bottom: 12px;
+        max-width: 500px;
+
     }
 
     .work-item:not(:first-of-type) {
@@ -88,5 +100,19 @@
     .company-and-date {
         display: flex;
         justify-content: space-between;
+        flex-wrap: wrap;
     }
+
+    @media (max-width: 800px) {
+    .work-experience-list {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .headline {
+        font-size: 30px;
+        margin-top: 20px;
+    }
+
+}
 </style>

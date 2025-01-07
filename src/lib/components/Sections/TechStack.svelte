@@ -29,13 +29,14 @@ const techStack = [
 ]
 </script>
 
-<div class="default-margin mt-m">
+<div class="tech-stack">
+<div class="default-margin mt-m mb-l">
     <h3>Tech Stack</h3>
     <div class="underscore"></div>
     <div>
     {#each techStack as category}
     <div class="ts-title">{category.title}</div>
-    <div class="tech-stack mt-xs">
+    <div class="tech-stack-list mt-xs">
     {#each category.stack as item}
     <p>{item}</p>
     {/each}
@@ -44,14 +45,20 @@ const techStack = [
     </div>
 
 </div>
+</div>
 
 <style>
     .tech-stack {
+        background-color: #fbfbfb;
+        width: 100%;
+        padding-top: 30px;
+    }
+
+    .tech-stack-list {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
         align-items: normal;
-
     }
 
     .ts-title {
@@ -61,7 +68,7 @@ const techStack = [
         font-weight: bold;
         margin-bottom: 5px;
         padding-bottom: 0px;
-        margin-top: 10px;
+        margin-top: 5px;
     }
 
     .tech-stack p {
