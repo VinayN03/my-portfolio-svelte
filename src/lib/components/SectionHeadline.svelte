@@ -9,7 +9,7 @@
     let { children, sectionName}: SectionHeadlineProps = $props();
 </script>
 
-<div class="default-margin" id={sectionName}>
+<div class="default-margin mb-m" id={sectionName}>
     <h3>
         {@render children()}
     </h3>
