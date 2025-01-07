@@ -4,7 +4,7 @@
 
 <section class="contact-section mt-l">
     <div class="contact-div">
-    <SectionHeadline sectionName={"contact-me"}>Contact Me</SectionHeadline>
+    <SectionHeadline sectionName={"contact-form"}>Contact Me</SectionHeadline>
 
     <div class="default-margin mt-m contact-details dark-grey">
     <p> vinaykumar.namadi@gmail.com </p>
