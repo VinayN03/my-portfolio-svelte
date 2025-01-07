@@ -29,7 +29,7 @@
 </script>
 
 <section class="certification mt-m">
-    <h3 class="headline">Certifications</h3>
+    <h3 class="cert-headline">Certifications</h3>
     <ul class="certification-list">
         {#each certifications as cert}
         <li class="cert-item">
@@ -40,7 +40,6 @@
                         {cert.from}
                     </p>
                 </div>
-            
             </artcle>
         </li>
         {/each}
@@ -50,24 +49,25 @@
 
 <style>
     .certification {
+        width: 80%;
+        margin: 60px auto;
         display: flex;
-        justify-content: space-between;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
         border: 1px solid #f0eded;
         border-radius: 10px;
         padding: 30px 15px;
-        margin-left: 70px;
-        margin-right: 70px;
     }
 
     .certification-list {
         width: 50%;
     }
 
-    .headline {
-        text-align: left;
-        margin-top: 200px;
-        margin-left: 80px; 
-        margin-right: 0;  
+    .cert-headline {
+        text-align: center;
+        /* margin-left: 80px;  */
+        /* margin-right: 0;   */
     }
 
     .cert-item:not(:last-of-type) {
@@ -87,4 +87,16 @@
         display: flex;
         justify-content: left;
     }
+
+    @media (max-width: 800px) {
+    .certification-list {
+        width: 90%;
+    }
+
+    .cert-headline {
+        width: 100%;
+        margin: 0 auto;
+        padding-bottom: 30px;
+    }
+}
 </style>

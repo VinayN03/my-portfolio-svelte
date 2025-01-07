@@ -8,4 +8,4 @@
 <AboutMeSection />
 <TechStack />
 <Certifications />
-<!-- <ContactForm />  -->
+<ContactForm /> 

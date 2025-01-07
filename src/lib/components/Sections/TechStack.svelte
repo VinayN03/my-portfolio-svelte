@@ -52,6 +52,8 @@ const techStack = [
         background-color: #fbfbfb;
         width: 100%;
         padding-top: 30px;
+        padding-bottom: 30px;
+        
     }
 
     .tech-stack-list {

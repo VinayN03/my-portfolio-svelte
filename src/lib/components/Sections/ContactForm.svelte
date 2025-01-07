@@ -2,7 +2,7 @@
     import { SectionHeadline } from "$components";
 </script>
 
-<section class="mt-l">
+<section class="contact-section mt-l">
     <SectionHeadline sectionName="contact-form">Contact Me</SectionHeadline>
 
     <div class="default-margin mt-m contact-details dark-grey">
@@ -13,9 +13,23 @@
 </section>
 
 <style>
+    .contact-section {
+        background-color: #fbfbfb;
+        padding: 30px 0px;
+    }
+
+    .contact-details {
+        padding-top: 60px;
+        
+    }
+
     .contact-details p{
         text-align: center;
-        margin: 0px 0px;
+        margin: -5px 0px;
+        font-size: 24px;
+        font-weight: 100;
+        line-height: 1.5;
+        letter-spacing: 0px;
     }
 
     .contact-details p:last-of-type{

@@ -70,6 +70,8 @@ h2 {
 }
 
 h3 {
+
+  display: inline-block;
   font-size: 40px;
   line-height: 1.2;
   font-weight: bold;
