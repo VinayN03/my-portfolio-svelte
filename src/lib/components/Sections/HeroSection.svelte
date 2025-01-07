@@ -9,6 +9,9 @@
     }
 
 </script>
+<!-- <div class="test-width">
+    This text is to test width
+</div> -->
 <section class="hero-section">
     <h5 class="ml-l">Hello!</h5><h5 class="ml-s mr-s">I'm</h5><h6>VINAY</h6>
     <div class="underscore mb-m ml-l"></div>
@@ -24,27 +27,22 @@
 </section>
 
 <style>
-    .hero-section {
-        width: 90vw;
-        max-width: 950px;
-        padding-top: 40px;
-        /* padding-left: 5vw; */
-        /* padding-right: 5vw; */
-        margin-right: 5vw;
-        margin-left: 5vw; 
-        align-items: center;
 
+    .hero-section {
+        width: 90%;
+        max-width: 1000px;
+        padding-top: 40px;
+        margin: 0 auto;
     }
 
     .summary {
-        /* width: 100%; */
         text-align: center;
+        margin: 0 auto;
+        padding-bottom: 40px;
     }
 
     .contact-me-button {
         display: flex;
         justify-content: center;
     }
-
-
 </style>
